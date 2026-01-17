@@ -9,6 +9,12 @@ return {
 			formatters_by_ft = {
 				cpp = { "clang_format" },
 				lua = { "stylua" },
+				python = { "black", "isort" },
+				typescript = { "prettier", "prettierd" },
+				javascript = { "prettier", "prettierd" },
+				javascriptreact = { "prettier", "prettierd" },
+				typescriptreact = { "prettier", "prettierd" },
+				json = { "prettier", "prettierd" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
